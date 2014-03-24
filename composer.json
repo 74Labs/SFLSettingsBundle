@@ -1,0 +1,19 @@
+{
+    "name": "seventyfourlaboratories/settings-bundle",
+    "description": "Settings management bundle for Symfony2",
+    "keywords": ["settings"],
+    "homepage": "http://github.com/SeventyFourLaboratories/SFLSettingsBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [{
+        "name" : "Seventy Four Laboratories",
+        "homepage": "http://74labs.com"
+    }],
+    "require": {
+        "symfony/framework-bundle": ">=2.4"
+    },
+    "autoload": {
+        "psr-0": { "SFL\\SettingsBundle": "" }
+    },
+    "target-dir" : "SFL/SettingsBundle"
+}
